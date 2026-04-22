@@ -1,10 +1,34 @@
 
 # Military Warehouse Management System
 
-A multi-level military supply chain management system written in Java.  
-Refactored from a single-file design into a clean, modular package structure.
+**Problem Statement (PS):**
+Military inventory and supply systems are often manual, causing delays, poor record management, slow approvals, and inefficient tracking of stock and deliveries.
 
----
+## **Video Link**
+
+**[Watch Project Video](https://drive.google.com/drive/folders/1vEtKXEkjbZMWABuNH6q2jSydEYurgGqi)**
+
+
+## Data Structures Used
+
+|  Data Structure   | Usage Area           |           Purpose                |
+|------------------ |----------------------|----------------------------------|
+| HashMap           | Storage & Mapping    | Fast key-value lookup (O(1))     |
+| ArrayList         | Requests & Lists     | Dynamic storage & traversal      |
+| Queue/LinkedList  | Replenishment System | FIFO processing                  |
+| PriorityQueue     | FEFO & Pathfinding   | Priority-based processing        |
+| LinkedList        | Path Tracking        | Efficient insertions             |
+| StringBuilder     | Encryption           | Efficient string manipulation    |
+| Arrays            | Fixed Data           | Static memory-efficient storage  |
+
+
+### Design Justification
+We selected data structures based on efficiency:
+- **HashMap** ensures constant-time access  
+- **Queue** maintains FIFO order for fair processing  
+- **PriorityQueue** handles priority-based operations like FEFO and shortest path
+
+
 
 ## Folder Structure
 
