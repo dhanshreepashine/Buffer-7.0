@@ -8,6 +8,10 @@ Military inventory and supply systems are often manual, causing delays, poor rec
 
 **[Watch Project Video](https://drive.google.com/drive/folders/1vEtKXEkjbZMWABuNH6q2jSydEYurgGqi)**
 
+##**System Hierarchy photo**
+
+<img width="1024" height="1536" alt="WhatsApp Image 2026-04-22 at 8 31 30 PM" src="https://github.com/user-attachments/assets/f9c86856-ed0d-44d0-9ea4-3150fb39aba6" />
+
 
 ## Data Structures Used
 
